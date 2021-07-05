@@ -1,0 +1,147 @@
+.name {
+    font-size: 75px;
+    font-family:'Baloo Thambi 2', cursive;
+    padding: 60px;
+
+}
+
+.leftscreen { 
+    height: 99px;
+    width: 468; 
+    margin: 35px;
+    padding: 35px; 
+}
+
+.line1 {
+    border: 2px solid #000;
+    width: 468px;
+    margin: 35px;
+    color: black; 
+    justify-content: 346px; 
+    align-items: 57px;
+
+}
+
+.paragraph1 {
+    font-size: 24px;
+    margin: 100px;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resume { 
+    font-size: 24px; 
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    background-color: #333;
+    border-radius: 8px;
+    color: white;
+    
+}
+
+.contact { 
+    font-size: 24px; 
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    background-color: #333;
+    border-radius: 8px;
+    color: white;
+}
+
+.rightscreen {
+    width: 865px;
+    height: 792px;
+    background-color: #333;
+    margin:100px;
+    padding: 5px;
+}
+
+.flip {
+    font-size: 24px; 
+    padding: 10px 24px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    background-color: #C1D2C1;
+    border-radius: 8px;
+    color: black;
+}
+
+.ustd {
+    font-size: 24px; 
+    padding: 10px 24px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    background-color: #C1D2C1;
+    border-radius: 8px;
+    color: black;
+}
+
+.ci {
+    font-size: 24px; 
+    padding: 10px 24px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    background-color: #C1D2C1;
+    border-radius: 8px;
+    color: black;
+}
+
+.ci, .flip, .ustd { 
+    justify-content: space-evenly;
+    align-items: baseline; 
+}
+
+.flipscreen { 
+    height: auto;
+    width: 272px; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ustdscreen { 
+    height: auto;
+    width: 272px; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ciscreen { 
+    height: auto;
+    width: 272px; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.casestudy { 
+    font-size: 75px;
+    font-family:'Baloo Thambi 2', cursive;
+    padding: 60px;
+    color: white;
+}
