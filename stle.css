@@ -1,3 +1,5 @@
+
+
 .name {
     font-size: 75px;
     font-family:'Baloo Thambi 2', cursive;
@@ -149,9 +151,9 @@
     color: white;
 }
 
-body { 
+.container { 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-area: 
-        "leftscreen rightscreen rightscreen";
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+        "leftscreen rightscreen";
 }
