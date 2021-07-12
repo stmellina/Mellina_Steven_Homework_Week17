@@ -46,7 +46,11 @@
     background-color: #333;
     border-radius: 8px;
     color: white;
-    
+    transition: ease-in .5s;
+}
+
+.resume:hover {
+    background-color: rgb(14, 13, 13);
 }
 
 .contact { 
@@ -62,11 +66,16 @@
     background-color: #333;
     border-radius: 8px;
     color: white;
+    transition: ease-in .5s;
+}
+
+.contact:hover {
+    background-color: rgb(14, 13, 13);
 }
 
 .rightscreen {
-    width: 865px;
-    height: 792px;
+    width: 840px;
+    height: 700px;
     background-color: #333;
     margin:100px;
     padding: 5px;
@@ -86,6 +95,11 @@
     background-color: #C1D2C1;
     border-radius: 8px;
     color: black;
+    transition: ease-in .5s;
+}
+
+.flip:hover { 
+    background-color: #607260;
 }
 
 .ustd {
@@ -101,6 +115,11 @@
     background-color: #C1D2C1;
     border-radius: 8px;
     color: black;
+    transition: ease-in .5s;
+}
+
+.ustd:hover { 
+    background-color: #607260;
 }
 
 .ci {
@@ -116,12 +135,18 @@
     background-color: #C1D2C1;
     border-radius: 8px;
     color: black;
+    transition: ease-in .5s;
+}
+
+.ci:hover { 
+    background-color: #607260;
 }
 
 .ci, .flip, .ustd { 
     justify-content: space-evenly;
     align-items: baseline; 
 }
+
 
 .flipscreen { 
     height: auto;
@@ -156,4 +181,14 @@
     grid-template-columns: 1fr 2fr;
     grid-template-areas: 
         "leftscreen rightscreen";
+}
+
+.instagram { 
+    height: 50px; 
+    width: 50px; 
+}
+
+.linkedin { 
+    height: 45px; 
+    width: 50px; 
 }
